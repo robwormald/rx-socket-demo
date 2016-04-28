@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+		"outDir": "dist",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true
+    },
+    "files": [
+		"typings/main.d.ts",
+		"src/client/main.ts",
+		"src/server/main.ts"
+	]
+}
